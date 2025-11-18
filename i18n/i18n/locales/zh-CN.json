@@ -1,0 +1,79 @@
+{
+  "site": {
+    "title": "nano banana AI",
+    "subtitle": "nano banana 能力的统一入口"
+  },
+  "nav": {
+    "catalog": "能力目录",
+    "chat": "聊天",
+    "settings": "设置"
+  },
+  "home": {
+    "get_started": "开始使用",
+    "browse_all": "浏览全部",
+    "hero": {
+      "title": "基于 nano banana 的统一 AI 门户",
+      "subtitle": "探索、体验并交付文本、图像、语音与工作流等精品能力",
+      "cta_primary": "探索能力",
+      "cta_secondary": "开始聊天"
+    },
+    "features": {
+      "title": "为什么选择 nano banana",
+      "speed": { "title": "极速", "desc": "优化的 SSR 与边缘 API，响应敏捷" },
+      "multilingual": { "title": "多语言", "desc": "内置国际化，现支持中英文" },
+      "categories": { "title": "能力丰富", "desc": "文本、图像、音频、RAG、工具与工作流" },
+      "security": { "title": "安全", "desc": "服务端密钥与运行时配置，输入校验" },
+      "performance": { "title": "高性能", "desc": "按需加载、路由分块与 SEO 友好" },
+      "ui": { "title": "好看", "desc": "Nuxt UI + Tailwind，现代优雅的设计" }
+    },
+    "logos": {
+      "title": "受到进取团队的信赖",
+      "caption": "精选合作与生态伙伴"
+    },
+    "demo": {
+      "title": "统一的 AI 体验",
+      "desc": "将能力组合为优雅的工作流，即时反馈",
+      "placeholder": "演示预览占位"
+    },
+    "testimonials": {
+      "title": "用户怎么说",
+      "items": {
+        "0": { "quote": "优雅且快速地交付 AI 功能", "author": "Alex", "role": "产品负责人" },
+        "1": { "quote": "设计清爽，能力结构合理", "author": "Mia", "role": "前端工程师" },
+        "2": { "quote": "易于集成与扩展", "author": "Leo", "role": "技术负责人" }
+      }
+    },
+    "faq": {
+      "title": "常见问题",
+      "items": {
+        "0": { "q": "API 如何保证安全？", "a": "密钥仅存储于服务端 runtimeConfig，输入会进行校验。" },
+        "1": { "q": "可以增加更多语言吗？", "a": "可以，新增 locales JSON 并更新 i18n 配置即可。" },
+        "2": { "q": "对 SEO 友好吗？", "a": "Nuxt SSR 保证良好 SEO，关键页面可预渲染。" }
+      }
+    },
+    "cta": {
+      "title": "用 nano banana 构建",
+      "desc": "现在开始集成精品 AI 能力",
+      "primary": "探索能力",
+      "secondary": "开始聊天"
+    }
+  },
+  "catalog": {
+    "title": "能力",
+    "search_placeholder": "搜索能力"
+  },
+  "capabilities": {
+    "llm_chat": {
+      "name": "LLM 对话",
+      "desc": "由大模型驱动的对话助理"
+    },
+    "image_generate": {
+      "name": "图像生成",
+      "desc": "根据文本提示生成图像"
+    }
+  },
+  "common": {
+    "execute": "执行",
+    "result": "结果"
+  }
+}

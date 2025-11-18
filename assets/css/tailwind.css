@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html, body { height: 100%; }
+}
+
+@layer components {
+  .btn-primary {
+    @apply inline-flex items-center justify-center rounded-xl bg-indigo-600 text-white px-5 py-2.5 hover:bg-indigo-500 transition;
+  }
+  .btn-secondary {
+    @apply inline-flex items-center justify-center rounded-xl border border-white/40 text-white px-5 py-2.5 hover:bg-white/10 transition;
+  }
+  .card {
+    @apply rounded-xl border border-white/10 bg-white/5 backdrop-blur shadow-card dark:border-gray-800 dark:bg-gray-900/40;
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "site": {
+    "title": "nano banana AI",
+    "subtitle": "Unified portal for nano banana capabilities"
+  },
+  "nav": {
+    "catalog": "Catalog",
+    "chat": "Chat",
+    "settings": "Settings"
+  },
+  "home": {
+    "get_started": "Get Started",
+    "browse_all": "Browse All",
+    "hero": {
+      "title": "Edit any image with natural language",
+      "subtitle": "Transform photos with simple text prompts. Better character consistency and scene preservation",
+      "cta_primary": "Try the AI Editor",
+      "cta_secondary": "Get Started"
+    },
+    "features": {
+      "title": "Core Features",
+      "speed": { "title": "Ultra-Fast", "desc": "Milliseconds-level generation with optimized engine" },
+      "multilingual": { "title": "Natural Language Editing", "desc": "Understands complex instructions like GPT for images" },
+      "categories": { "title": "Character Consistency", "desc": "Preserves identity and facial features across edits" },
+      "security": { "title": "Scene Preservation", "desc": "Seamlessly blends edits with original backgrounds" },
+      "performance": { "title": "One-Shot Editing", "desc": "Perfect results in a single attempt" },
+      "ui": { "title": "Multi-Image Context", "desc": "Process multiple images simultaneously for UGC workflows" }
+    },
+    "logos": {
+      "title": "Trusted by forward-thinking teams",
+      "caption": "Selected collaborators and ecosystems"
+    },
+    "demo": {
+      "title": "Unified AI experience",
+      "desc": "Combine capabilities into elegant workflows with instant feedback",
+      "placeholder": "Demo preview placeholder"
+    },
+    "testimonials": {
+      "title": "What users say",
+      "items": {
+        "0": { "quote": "An elegant and fast way to ship AI features", "author": "Alex", "role": "Product Lead" },
+        "1": { "quote": "Clean design with well-structured capabilities", "author": "Mia", "role": "Frontend Engineer" },
+        "2": { "quote": "Easy to integrate and scale", "author": "Leo", "role": "Tech Lead" }
+      }
+    },
+    "faq": {
+      "title": "Frequently asked questions",
+      "items": {
+        "0": { "q": "How is the API secured?", "a": "All keys are stored server-side via runtimeConfig; inputs are validated." },
+        "1": { "q": "Can I add more languages?", "a": "Yes, add a new JSON in locales and update i18n config." },
+        "2": { "q": "Is it SEO-friendly?", "a": "Nuxt SSR ensures good SEO; critical pages can be prerendered." }
+      }
+    },
+    "cta": {
+      "title": "Build with nano banana",
+      "desc": "Start integrating premium AI capabilities today",
+      "primary": "Explore Capabilities",
+      "secondary": "Start Chat"
+    }
+  },
+  "editor": {
+    "title": "AI Editor",
+    "reference": "Reference Images",
+    "add_image": "Add Images",
+    "max_10mb": "Max 10MB per image, supports multiple uploads",
+    "main_prompt": "Main Prompt",
+    "model": "Model Selection",
+    "batch_mode": "Batch Mode",
+    "output_gallery": "Output Gallery",
+    "try_now": "Try Now",
+    "generate": "Generate",
+    "clear": "Clear"
+  }
+  "catalog": {
+    "title": "Capabilities",
+    "search_placeholder": "Search capabilities"
+  },
+  "capabilities": {
+    "llm_chat": {
+      "name": "LLM Chat",
+      "desc": "Conversational assistant powered by LLM"
+    },
+    "image_generate": {
+      "name": "Image Generation",
+      "desc": "Generate images from text prompts"
+    }
+  },
+  "common": {
+    "execute": "Execute",
+    "result": "Result"
+  }
+}

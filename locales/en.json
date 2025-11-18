@@ -1,0 +1,79 @@
+{
+  "site": {
+    "title": "nano banana AI",
+    "subtitle": "Unified portal for nano banana capabilities"
+  },
+  "nav": {
+    "catalog": "Catalog",
+    "chat": "Chat",
+    "settings": "Settings"
+  },
+  "home": {
+    "get_started": "Get Started",
+    "browse_all": "Browse All",
+    "hero": {
+      "title": "Your unified AI portal powered by nano banana",
+      "subtitle": "Discover, try and ship premium AI capabilities across text, image, voice and workflows",
+      "cta_primary": "Explore Capabilities",
+      "cta_secondary": "Start Chatting"
+    },
+    "features": {
+      "title": "Why nano banana",
+      "speed": { "title": "Lightning Fast", "desc": "Optimized SSR + edge-ready APIs for instant responses" },
+      "multilingual": { "title": "Multilingual", "desc": "Built-in i18n, starting with Chinese and English" },
+      "categories": { "title": "Rich Capabilities", "desc": "Text, image, audio, RAG, tools and workflows" },
+      "security": { "title": "Secure", "desc": "Server-side keys with runtimeConfig and input validation" },
+      "performance": { "title": "Performance", "desc": "Code-splitting, lazy loading and SEO-friendly SSR" },
+      "ui": { "title": "Beautiful UI", "desc": "Nuxt UI + Tailwind, modern and elegant design" }
+    },
+    "logos": {
+      "title": "Trusted by forward-thinking teams",
+      "caption": "Selected collaborators and ecosystems"
+    },
+    "demo": {
+      "title": "Unified AI experience",
+      "desc": "Combine capabilities into elegant workflows with instant feedback",
+      "placeholder": "Demo preview placeholder"
+    },
+    "testimonials": {
+      "title": "What users say",
+      "items": {
+        "0": { "quote": "An elegant and fast way to ship AI features", "author": "Alex", "role": "Product Lead" },
+        "1": { "quote": "Clean design with well-structured capabilities", "author": "Mia", "role": "Frontend Engineer" },
+        "2": { "quote": "Easy to integrate and scale", "author": "Leo", "role": "Tech Lead" }
+      }
+    },
+    "faq": {
+      "title": "Frequently asked questions",
+      "items": {
+        "0": { "q": "How is the API secured?", "a": "All keys are stored server-side via runtimeConfig; inputs are validated." },
+        "1": { "q": "Can I add more languages?", "a": "Yes, add a new JSON in locales and update i18n config." },
+        "2": { "q": "Is it SEO-friendly?", "a": "Nuxt SSR ensures good SEO; critical pages can be prerendered." }
+      }
+    },
+    "cta": {
+      "title": "Build with nano banana",
+      "desc": "Start integrating premium AI capabilities today",
+      "primary": "Explore Capabilities",
+      "secondary": "Start Chat"
+    }
+  },
+  "catalog": {
+    "title": "Capabilities",
+    "search_placeholder": "Search capabilities"
+  },
+  "capabilities": {
+    "llm_chat": {
+      "name": "LLM Chat",
+      "desc": "Conversational assistant powered by LLM"
+    },
+    "image_generate": {
+      "name": "Image Generation",
+      "desc": "Generate images from text prompts"
+    }
+  },
+  "common": {
+    "execute": "Execute",
+    "result": "Result"
+  }
+}
